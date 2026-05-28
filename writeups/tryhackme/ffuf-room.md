@@ -49,6 +49,7 @@ config                  [Status: 301]
 docs                    [Status: 301]
 robots.txt              [Status: 200]
 ```
+![File Fuzzing](../../screenshots/ffuf/directory-fuzzing.png)
 
 ### Interesting Results
 
@@ -98,6 +99,7 @@ index.php
 index.asp
 index.aspx
 ```
+![File Fuzzing](../../screenshots/ffuf/file-fuzzing.png)
 
 ## Result
 
@@ -150,6 +152,7 @@ To discover hidden directories.
 /docs/
 /config/
 ```
+![Directory Enumeration](../../screenshots/ffuf/directories-enumeration.png)
 
 ---
 
@@ -256,6 +259,9 @@ FFUF attempted:
 ?file=1
 ```
 
+## Result
+![Parameter Fuzzing](../../screenshots/ffuf/parameter-fuzzing.png)
+
 The `-fw 39` option filtered common invalid responses.
 
 ---
@@ -324,7 +330,7 @@ Valid password discovered:
 ```txt
 p@ssword
 ```
-
+![Bruteforce Success](../../screenshots/ffuf/bruteforce-success.png)
 ---
 
 # Task 10 – VHOST Enumeration
@@ -498,3 +504,6 @@ The most important lesson was understanding how to analyze differences in respon
 * line count
 
 FFUF proved to be a powerful and flexible tool for web enumeration and fuzzing tasks.
+
+
+[def]: ../screenshots/ffuf/Directories-enumeration.png
