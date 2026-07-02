@@ -106,7 +106,7 @@ The chosen subnet for this lab was:
 
 > **Screenshot 1 — VMware VMnet1 Configuration**
 >
-> `image/01-vmware-network-editor.png`
+![VMware VMnet1 Configuration](image/01-vmware-network-editor.png)
 
 ---
 
@@ -120,7 +120,7 @@ The Windows 10 workstation (WS01) would be deployed later and connected to the s
 
 > **Screenshot 2 — Windows Server Virtual Machine Configuration**
 >
-> `image/02-server-vm-creation.png`
+![Windows Server Virtual Machine Configuration](image/02-server-vm-creation.png)
 
 ---
 
@@ -142,7 +142,7 @@ During the installation process, the default language and regional settings were
 
 > **Screenshot 3 — Windows Server Setup**
 >
-> `image/03-server-installation-language.png`
+![Windows Server Setup](image/03-server-installation-language.png)
 
 ---
 
@@ -156,7 +156,7 @@ Although many production servers are administered remotely or through PowerShell
 
 > **Screenshot 4 — Windows Server Edition Selection**
 >
-> `image/04-server-installation-edition.png`
+![Windows Server Edition Selection](image/04-server-installation-edition.png)
 
 ---
 
@@ -168,7 +168,7 @@ The operating system was installed on a dedicated virtual disk, providing suffic
 
 > **Screenshot 5 — Disk Selection**
 >
-> `image/05-server-installation-disk.png`
+![Disk Selection](image/05-server-installation-disk.png)
 
 ---
 
@@ -200,7 +200,7 @@ Most Windows Server administration begins from this console.
 
 > **Screenshot 6 — Server Manager**
 >
-> `image/06-server-manager.png`
+![Server Manager](image/06-server-manager.png)
 
 ---
 
@@ -297,7 +297,7 @@ These tools provide administrators with everything required to manage an Active 
 
 > **Screenshot 7 — Installing Active Directory Domain Services**
 >
-> `image/07-add-ad-ds-installation.png`
+![Installing Active Directory Domain Services](image/07-add-ad-ds-installation.png)
 
 ---
 
@@ -317,7 +317,7 @@ Since this was the first Domain Controller in the environment, there were no exi
 
 > **Screenshot 8 — Domain Controller Promotion**
 >
-> `image/08-domain-controller-promotion.png`
+![Domain Controller Promotion](image/08-domain-controller-promotion.png)
 
 ---
 
@@ -376,7 +376,7 @@ The successful completion of this validation ensured that the promotion process 
 
 > **Screenshot 9 — Active Directory Prerequisite Check**
 >
-> `image/09-prerequisites-check.png`
+![Active Directory Prerequisite Check](image/09-prerequisites-check.png)
 
 ---
 
@@ -468,7 +468,7 @@ cyberjourney.lab
 
 > **Screenshot 10 — Active Directory Organizational Structure**
 >
-> `image/10-active-directory-structure.png`
+![Active Directory Organizational Structure](image/10-active-directory-structure.png)
 
 ---
 
@@ -664,7 +664,7 @@ This configuration is critical because Active Directory relies on DNS to locate 
 
 > **Screenshot 11 — Static IP Configuration**
 >
-> `image/11-static-ip-ws01.png`
+![Static IP Configuration](image/14-static-ip-ws01.png)
 
 ---
 
@@ -693,7 +693,7 @@ This message confirmed that:
 
 > **Screenshot 12 — Domain Join Successful**
 >
-> `image/12-domain-join-success.png`
+![Domain Join Successful](image/11-domain-join-success.png)
 
 ---
 
@@ -743,7 +743,7 @@ This is the same authentication workflow commonly used in enterprise Windows env
 
 > **Screenshot 13 — Domain User Login**
 >
-> `image/13-domain-login.png`
+![Domain User Login](image/15-domain-login.png)
 
 ---
 
@@ -771,7 +771,7 @@ Both commands completed successfully, confirming that:
 
 > **Screenshot 14 — Network Validation**
 >
-> `image/14-network-validation.png`
+![Network Validation](image/12-network-validation.png)
 
 ---
 
@@ -793,8 +793,7 @@ The successful creation of the computer object completed the workstation integra
 
 > **Screenshot 15 — Computer Object Registered**
 >
-> `image/15-computer-object.png`
-
+![Computer Object Registered in Active Directory](image/16-computer-object.png)
 ---
 
 # Final Environment
@@ -1119,3 +1118,4 @@ Beyond simply completing the deployment, this project provided hands-on experien
 The completed lab now serves as a strong foundation for future projects involving Group Policy, Windows Server administration, enterprise networking, Active Directory security, and offensive security techniques such as BloodHound, Kerberoasting, and privilege escalation.
 
 Building this environment from scratch significantly improved my understanding of how enterprise identity management works and established a practical platform for continued learning in both Windows administration and cybersecurity.
+
