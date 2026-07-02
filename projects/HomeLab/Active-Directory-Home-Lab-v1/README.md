@@ -106,7 +106,7 @@ The chosen subnet for this lab was:
 
 > **Screenshot 1 — VMware VMnet1 Configuration**
 >
-> `images/01-vmware-network-editor.png`
+> `image/01-vmware-network-editor.png`
 
 ---
 
@@ -120,7 +120,7 @@ The Windows 10 workstation (WS01) would be deployed later and connected to the s
 
 > **Screenshot 2 — Windows Server Virtual Machine Configuration**
 >
-> `images/02-server-vm-creation.png`
+> `image/02-server-vm-creation.png`
 
 ---
 
@@ -142,7 +142,7 @@ During the installation process, the default language and regional settings were
 
 > **Screenshot 3 — Windows Server Setup**
 >
-> `images/03-server-installation-language.png`
+> `image/03-server-installation-language.png`
 
 ---
 
@@ -156,7 +156,7 @@ Although many production servers are administered remotely or through PowerShell
 
 > **Screenshot 4 — Windows Server Edition Selection**
 >
-> `images/04-server-installation-edition.png`
+> `image/04-server-installation-edition.png`
 
 ---
 
@@ -168,7 +168,7 @@ The operating system was installed on a dedicated virtual disk, providing suffic
 
 > **Screenshot 5 — Disk Selection**
 >
-> `images/05-server-installation-disk.png`
+> `image/05-server-installation-disk.png`
 
 ---
 
@@ -200,7 +200,7 @@ Most Windows Server administration begins from this console.
 
 > **Screenshot 6 — Server Manager**
 >
-> `images/06-server-manager.png`
+> `image/06-server-manager.png`
 
 ---
 
@@ -297,7 +297,7 @@ These tools provide administrators with everything required to manage an Active 
 
 > **Screenshot 7 — Installing Active Directory Domain Services**
 >
-> `images/07-add-ad-ds-installation.png`
+> `image/07-add-ad-ds-installation.png`
 
 ---
 
@@ -317,7 +317,7 @@ Since this was the first Domain Controller in the environment, there were no exi
 
 > **Screenshot 8 — Domain Controller Promotion**
 >
-> `images/08-domain-controller-promotion.png`
+> `image/08-domain-controller-promotion.png`
 
 ---
 
@@ -376,7 +376,7 @@ The successful completion of this validation ensured that the promotion process 
 
 > **Screenshot 9 — Active Directory Prerequisite Check**
 >
-> `images/09-prerequisites-check.png`
+> `image/09-prerequisites-check.png`
 
 ---
 
@@ -468,7 +468,7 @@ cyberjourney.lab
 
 > **Screenshot 10 — Active Directory Organizational Structure**
 >
-> `images/10-active-directory-structure.png`
+> `image/10-active-directory-structure.png`
 
 ---
 
@@ -664,7 +664,7 @@ This configuration is critical because Active Directory relies on DNS to locate 
 
 > **Screenshot 11 — Static IP Configuration**
 >
-> `images/11-static-ip-ws01.png`
+> `image/11-static-ip-ws01.png`
 
 ---
 
@@ -693,7 +693,7 @@ This message confirmed that:
 
 > **Screenshot 12 — Domain Join Successful**
 >
-> `images/12-domain-join-success.png`
+> `image/12-domain-join-success.png`
 
 ---
 
@@ -743,7 +743,7 @@ This is the same authentication workflow commonly used in enterprise Windows env
 
 > **Screenshot 13 — Domain User Login**
 >
-> `images/13-domain-login.png`
+> `image/13-domain-login.png`
 
 ---
 
@@ -771,7 +771,7 @@ Both commands completed successfully, confirming that:
 
 > **Screenshot 14 — Network Validation**
 >
-> `images/14-network-validation.png`
+> `image/14-network-validation.png`
 
 ---
 
@@ -793,7 +793,7 @@ The successful creation of the computer object completed the workstation integra
 
 > **Screenshot 15 — Computer Object Registered**
 >
-> `images/15-computer-object.png`
+> `image/15-computer-object.png`
 
 ---
 
